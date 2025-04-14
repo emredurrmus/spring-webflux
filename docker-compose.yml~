@@ -1,0 +1,14 @@
+version: '3.9'
+
+services:
+  webflux-db:
+    image: postgres
+    restart: always
+    ports:
+      - 5452:5432
+    container_name: webflux-db
+    shm_size: 128mb
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: webflux
