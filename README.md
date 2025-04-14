@@ -1,4 +1,4 @@
-# 🌐 Spring WebFlux + PostgreSQL Project
+# 🌐 Spring WebFlux Reactive Project
 
 This project is a reactive backend application built with **Spring WebFlux** and **Java 21**. It uses **PostgreSQL** as the database, running inside a Docker container.
 
